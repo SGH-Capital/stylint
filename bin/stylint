@@ -28,9 +28,6 @@ var options = yargs
 		type: 'string',
 		requiresArg: true
 	} )
-	.version( function() {
-		return 'Stylint version: ' + require( '../package' ).version
-	} )
 	.alias( 'version', 'v' )
 	.help( 'help' )
 	.alias( 'help', 'h' )
