@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "chai": "4.3.6",
-    "eslint": "2.13.1",
+    "eslint": "8.14.0",
     "jsdoc": "3.6.10",
     "mocha": "4.1.0",
     "nyc": "15.1.0",

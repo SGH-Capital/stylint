@@ -23,7 +23,7 @@ var parse = function( err, res ) {
 		// to do these we replace block comments with new lines
 		lines = file.toString().replace( cleanFileRe, function( str ) {
 			// WHERE IS YOUR GOD NOW
-			return ( new Array( str.split( lineEndingsRe ).length ) ).join( '\n' )
+			return new Array( str.split( lineEndingsRe ).length ).join( '\n' )
 		} ).split( '\n' )
 
 		// updating cache as we go, and passing to the next step
