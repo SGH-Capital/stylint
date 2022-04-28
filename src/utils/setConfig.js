@@ -2,7 +2,7 @@
 
 var fs = require( 'fs' )
 var path = require( 'path' )
-var userHome = require( 'user-home' )
+var os = require( 'os' )
 var stripJsonComments = require( 'strip-json-comments' )
 var Glob = require( 'glob' ).Glob
 
@@ -62,7 +62,7 @@ var setConfig = function( configpath ) {
 		}
 
 		// only go up to user home directory, stop recursion
-		if ( userHome ) return null
+		if ( os.homedir() ) return null
 
 		// next dir level
 		var nextLevel = level + 1

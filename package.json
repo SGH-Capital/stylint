@@ -51,7 +51,6 @@
     "lodash.defaults": "4.2.0",
     "stampit": "1.2.0",
     "strip-json-comments": "3.1.1",
-    "user-home": "3.0.0",
     "yargs": "17.4.1"
   },
   "scripts": {
