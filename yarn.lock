@@ -1438,6 +1438,11 @@ lodash.merge@^4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
+lodash@^3.9.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+  integrity sha512-9mDDwqVIma6OZX79ZlDACZl8sBm0TEnkf99zV3iMA4GzkIT/9hiqP5mY0HoT1iNLCrKc/R1HByV+yJfRWVJryQ==
+
 lodash@^4.17.14, lodash@^4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
@@ -1557,11 +1562,6 @@ mocha@10.0.0:
     yargs "16.2.0"
     yargs-parser "20.2.4"
     yargs-unparser "2.0.0"
-
-mout@~0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/mout/-/mout-0.5.0.tgz#ff967566a90f29595e9cb8b6e7800a5b56635583"
-  integrity sha512-EMyGu92QKMvG69pHqh9guoDIDsh4lpR+Lmb51ZS6bHLr/NL6fXpYKwbsRp7LeLFvw9f0dxxQAJCh0Ts8mMM/Fw==
 
 ms@2.1.2:
   version "2.1.2"
@@ -1953,12 +1953,12 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-stampit@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/stampit/-/stampit-1.2.0.tgz#51f9c6a08c146473fcd021af551c9f32ed5c7b9d"
-  integrity sha512-DzVKo18iiu9dHcs1y/51Th/bOB4qbC5G1mfBcK4/cq2QNxZqExWH6MG9YbXSx96nC293B65pEsC0fT7MKmsGnA==
+stampit@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/stampit/-/stampit-2.0.1.tgz#c0ef9988c552d333259f12267943801d7c17af57"
+  integrity sha512-YdMy5bbSWiKelbXTjEzbofxVdtaT8gCeHpxhHHLCoZiElLtzx6acgaqHHnFggF0+nqiRErQkR9lixt1ecSuYug==
   dependencies:
-    mout "~0.5.0"
+    lodash "^3.9.1"
 
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
