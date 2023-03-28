@@ -34,10 +34,10 @@
     "stylint": "./bin/stylint"
   },
   "devDependencies": {
-    "chai": "4.3.6",
-    "eslint": "8.23.0",
+    "chai": "4.3.7",
+    "eslint": "8.36.0",
     "jsdoc": "3.6.11",
-    "mocha": "10.0.0",
+    "mocha": "10.2.0",
     "nyc": "15.1.0",
     "sinon": "13.0.2",
     "touch": "3.1.0"
@@ -51,7 +51,7 @@
     "lodash.defaults": "4.2.0",
     "stampit": "1.2.0",
     "strip-json-comments": "3.1.1",
-    "yargs": "17.5.1"
+    "yargs": "17.7.1"
   },
   "scripts": {
     "cover": "nyc mocha --exit",
