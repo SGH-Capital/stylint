@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "chai": "4.3.7",
-    "eslint": "8.38.0",
+    "eslint": "8.43.0",
     "jsdoc": "4.0.2",
     "mocha": "10.2.0",
     "nyc": "15.1.0",
@@ -50,11 +50,11 @@
     "chalk": "4.1.2",
     "chokidar": "3.5.3",
     "columnify": "1.6.0",
-    "glob": "9.3.3",
+    "glob": "10.3.1",
     "lodash.defaults": "4.2.0",
     "stampit": "1.2.0",
     "strip-json-comments": "3.1.1",
-    "yargs": "17.7.1"
+    "yargs": "17.7.2"
   },
   "scripts": {
     "cover": "nyc mocha --exit",
