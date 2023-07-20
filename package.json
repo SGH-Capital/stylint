@@ -38,11 +38,11 @@
   },
   "devDependencies": {
     "chai": "4.3.7",
-    "eslint": "8.43.0",
+    "eslint": "8.45.0",
     "jsdoc": "4.0.2",
     "mocha": "10.2.0",
     "nyc": "15.1.0",
-    "sinon": "15.0.3",
+    "sinon": "15.2.0",
     "touch": "3.1.0"
   },
   "dependencies": {
@@ -50,7 +50,7 @@
     "chalk": "4.1.2",
     "chokidar": "3.5.3",
     "columnify": "1.6.0",
-    "glob": "10.3.1",
+    "glob": "10.3.3",
     "lodash.defaults": "4.2.0",
     "stampit": "1.2.0",
     "strip-json-comments": "3.1.1",
