@@ -1,6 +1,6 @@
 {
   "name": "@sgh-capital/stylint",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A linter for stylus",
   "author": "Ross Patton",
   "license": "GPL-3.0",
